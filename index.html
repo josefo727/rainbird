@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>RAIN BIRD - Sistemas de Riego</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body class="bg-gray-100 text-gray-800">
+<!-- Header -->
+<header class="bg-green-700 text-white fixed w-full z-10 shadow-md">
+  <div class="container mx-auto flex justify-between items-center p-4">
+    <a href="#index">
+      <img src="./gallery/images/Rain-Bird.svg" alt="Rain Bird Logo" class="w-20">
+    </a>
+    <nav class="hidden md:flex space-x-6">
+      <a href="#index" class="hover:text-gray-300">Incio</a>
+      <a href="#services" class="hover:text-gray-300">Servicios</a>
+      <a href="#gallery" class="hover:text-gray-300">Galería</a>
+      <a href="#contact" class="hover:text-gray-300">Contacto</a>
+    </nav>
+    <button id="menu-toggle" class="text-white text-2xl md:hidden"><i class="fas fa-bars"></i></button>
+  </div>
+  <!-- Mobile Menu -->
+  <div id="mobile-menu" class="hidden bg-green-700 p-4 space-y-4">
+    <a href="#index" class="block text-white">Incio</a>
+    <a href="#services" class="block text-white">Servicios</a>
+    <a href="#gallery" class="block text-white">Galería</a>
+    <a href="#contact" class="block text-white">Contacto</a>
+  </div>
+</header>
+
+<!-- Hero Section -->
+<section id="index" class="pt-24 bg-cover bg-center text-black flex items-center" style="background-image: url('./gallery/images/rain-bird.svg'); height: 50vh;">
+  <div class="container mx-auto text-center">
+    <h1 class="text-5xl font-bold">Sistemas de Riego Profesional</h1>
+    <p class="text-2xl font-bold mt-4">Diseño, reparación y mantenimiento a tu medida</p>
+  </div>
+</section>
+
+<!-- Services Section -->
+<section id="services" class="py-16 bg-white">
+  <div class="container px-2 md:px-0 mx-auto text-center">
+    <h2 class="text-3xl font-bold mb-6 text-green-700">Nuestros Servicios</h2>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+      <!-- Card -->
+      <div class="p-6 bg-gray-50 shadow-md rounded-lg">
+        <i class="fas fa-tools text-4xl text-green-700 mb-4"></i>
+        <h3 class="text-xl font-semibold mb-2">Diseño de Sistemas</h3>
+        <p>Transformamos espacios exteriores en zonas verdes eficientes con diseños personalizados.</p>
+      </div>
+      <div class="p-6 bg-gray-50 shadow-md rounded-lg">
+        <i class="fas fa-wrench text-4xl text-green-700 mb-4"></i>
+        <h3 class="text-xl font-semibold mb-2">Reparación de Sistemas</h3>
+        <p>Reparación de tuberías rotas, componentes obsoletos y diagnóstico de fallos.</p>
+      </div>
+      <div class="p-6 bg-gray-50 shadow-md rounded-lg">
+        <i class="fas fa-solar-panel text-4xl text-green-700 mb-4"></i>
+        <h3 class="text-xl font-semibold mb-2">Programadores de Riego</h3>
+        <p>Instalamos programadores modernos para maximizar la eficiencia y el ahorro de agua.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Gallery Section -->
+<section id="gallery" class="py-16 mx-5 md:mx-0 bg-gray-100">
+  <div class="container px-2 md:px-0 mx-auto text-center">
+    <h2 class="text-3xl font-bold mb-6 text-green-700">Galería</h2>
+
+    <!-- Images -->
+    <div class="owl-carousel owl-theme">
+      <div class="max-h-full max-w-full rounded-lg shadow-md">
+        <img src="./gallery/images/images-01.jpeg" alt="Imagen 1">
+      </div>
+      <div class="max-h-full max-w-full rounded-lg shadow-md">
+        <img src="./gallery/images/images-02.jpeg" alt="Imagen 2">
+      </div>
+      <div class="max-h-full max-w-full rounded-lg shadow-md">
+        <img src="./gallery/images/images-03.jpeg" alt="Imagen 3">
+      </div>
+      <div class="max-h-full max-w-full rounded-lg shadow-md">
+        <img src="./gallery/images/images-04.jpeg" alt="Imagen 4">
+      </div>
+      <div class="max-h-full max-w-full rounded-lg shadow-md">
+        <img src="./gallery/images/images-05.jpeg" alt="Imagen 5">
+      </div>
+      <div class="max-h-full max-w-full rounded-lg shadow-md">
+        <img src="./gallery/images/images-06.jpeg" alt="Imagen 6">
+      </div>
+      <div class="max-h-full max-w-full rounded-lg shadow-md">
+        <img src="./gallery/images/images-07.jpeg" alt="Imagen 7">
+      </div>
+      <div class="max-h-full max-w-full rounded-lg shadow-md">
+        <img src="./gallery/images/images-08.jpeg" alt="Imagen 8">
+      </div>
+      <div class="max-h-full max-w-full rounded-lg shadow-md">
+        <img src="./gallery/images/images-09.jpeg" alt="Imagen 9">
+      </div>
+      <div class="max-h-full max-w-full rounded-lg shadow-md">
+        <img src="./gallery/images/images-10.jpeg" alt="Imagen 10">
+      </div>
+    </div>
+
+    <!-- Videos -->
+    <div id="videos" class="mt-8">
+      <h3 class="text-2xl font-semibold mb-4">Vídeos</h3>
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+        <!-- Video 1 -->
+        <div class="video-container relative w-full bg-gray-200 rounded-lg overflow-hidden shadow-md cursor-pointer"
+             data-video="qehfzIwtsK8" style="height: 800px;">
+          <img
+                  src="https://img.youtube.com/vi/qehfzIwtsK8/hqdefault.jpg"
+                  alt="Video 1"
+                  class="w-full h-full object-cover"
+          >
+          <div class="absolute inset-0 flex items-center justify-center">
+            <i class="fas fa-play text-white text-5xl bg-black bg-opacity-50 p-4 rounded-full"></i>
+          </div>
+        </div>
+        <!-- Video 2 -->
+        <div class="video-container relative w-full bg-gray-200 rounded-lg overflow-hidden shadow-md cursor-pointer"
+             data-video="Nq73AQoKAIY" style="height: 800px;">
+          <img
+                  src="https://img.youtube.com/vi/Nq73AQoKAIY/hqdefault.jpg"
+                  alt="Video 2"
+                  class="w-full h-full object-cover"
+          >
+          <div class="absolute inset-0 flex items-center justify-center">
+            <i class="fas fa-play text-white text-5xl bg-black bg-opacity-50 p-4 rounded-full"></i>
+          </div>
+        </div>
+        <!-- Video 3 -->
+        <div class="video-container relative w-full bg-gray-200 rounded-lg overflow-hidden shadow-md cursor-pointer"
+             data-video="a254qww6Te8" style="height: 800px;">
+          <img
+                  src="https://img.youtube.com/vi/a254qww6Te8/hqdefault.jpg"
+                  alt="Video 3"
+                  class="w-full h-full object-cover"
+          >
+          <div class="absolute inset-0 flex items-center justify-center">
+            <i class="fas fa-play text-white text-5xl bg-black bg-opacity-50 p-4 rounded-full"></i>
+          </div>
+        </div>
+        <!-- Video 4 -->
+        <div class="video-container relative w-full bg-gray-200 rounded-lg overflow-hidden shadow-md cursor-pointer"
+             data-video="Wrn1MtstoLE" style="height: 800px;">
+          <img
+                  src="https://img.youtube.com/vi/Wrn1MtstoLE/hqdefault.jpg"
+                  alt="Video 4"
+                  class="w-full h-full object-cover"
+          >
+          <div class="absolute inset-0 flex items-center justify-center">
+            <i class="fas fa-play text-white text-5xl bg-black bg-opacity-50 p-4 rounded-full"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Contact Section -->
+<section id="contact" class="py-16 bg-white">
+  <div class="container mx-auto text-center">
+    <h2 class="text-3xl font-bold mb-6 text-green-700">Contáctanos</h2>
+    <p class="mb-4">Haz que tu sistema de riego sea el aliado perfecto para el cuidado de tus áreas verdes.</p>
+    <p class="font-bold">Teléfono: +56996967361</p>
+    <p class="font-bold">Email: manteola@gmail.com</p>
+    <p class="font-bold">Ubicación: Ramon Venegas 2558, Santiago de Chile</p>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer class="bg-gray-800 text-white py-4 text-center">
+  &copy; 2025 Rain Bird. Todos los derechos reservados.
+</footer>
+<script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+
+<script>
+  $(window).on('load resize', function() {
+    const $images = $('.owl-carousel img');
+    let minHeight = Number.MAX_SAFE_INTEGER;
+
+    $images.each(function() {
+      const currentHeight = $(this).height();
+      if (currentHeight < minHeight) {
+        minHeight = currentHeight;
+      }
+    });
+
+    $images.css({
+      'height': minHeight + 'px',
+      'object-fit': 'cover'
+    });
+  });
+</script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<!-- JavaScript -->
+<script>
+  /* Begin close burger manu */
+  const menuToggle = document.getElementById("menu-toggle");
+  const mobileMenu = document.getElementById("mobile-menu");
+  const menuLinks = mobileMenu.querySelectorAll("a");
+
+  menuToggle.addEventListener("click", () => {
+    mobileMenu.classList.toggle("hidden");
+  });
+
+  menuLinks.forEach(link => {
+    link.addEventListener("click", () => {
+      mobileMenu.classList.add("hidden");
+    });
+  });
+  /* End close burger manu */
+
+  /* Begin video section */
+  document.addEventListener("DOMContentLoaded", () => {
+    // Seleccionar todos los contenedores de vídeo
+    const videoContainers = document.querySelectorAll('.video-container');
+
+    // Agregar el evento 'click' a cada contenedor de vídeo
+    videoContainers.forEach(container => {
+      container.addEventListener('click', function () {
+        const videoId = this.getAttribute('data-video'); // Obtener el ID del video
+        const iframe = document.createElement('iframe');
+        iframe.src = `https://www.youtube.com/embed/${videoId}?autoplay=1`;
+        iframe.setAttribute('frameborder', '0');
+        iframe.setAttribute('allowfullscreen', 'true');
+        iframe.setAttribute('allow', 'autoplay'); // Permitir autoplay
+        iframe.className = 'w-full h-full rounded-lg';
+
+        // Reemplazar el contenido del contenedor con el iframe
+        this.innerHTML = '';
+        this.appendChild(iframe);
+      });
+    });
+  });
+  /* End video section */
+  $(document).ready(function(){
+    $('.owl-carousel').owlCarousel({
+      loop:true,
+      margin:10,
+      responsiveClass:true,
+      autoplay:true,
+      autoplayTimeout:2000,
+      autoplayHoverPause:true,
+      responsive:{
+        0:{
+          items:1,
+          nav:true
+        },
+        600:{
+          items:2,
+          nav:true
+        },
+        1000:{
+          items:3,
+          nav:true
+        }
+      }
+    })
+  });
+</script>
+</body>
+</html>
+
+<!--elriegoautomatico.cl-->

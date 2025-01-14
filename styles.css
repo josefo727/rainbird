@@ -1,0 +1,208 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  max-width: 96rem;
+  min-height: 100vh;
+  margin: auto;
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+/*Menu*/
+.space {
+  display: flex;
+  height: 40px;
+}
+.container-menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  height: 40px;
+  background: #008851;
+  box-shadow: 0 5px 10px -5px black;
+}
+.content-logo {
+  width: 20%;
+  margin: 0 10px;
+  display: flex;
+  justify-content: center;
+}
+.link-logo {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+.logo {
+  width: 100%;
+  height: 100%;
+}
+/*contenido*/
+
+/* Estilos específicos para el contenedor de contenido */
+.container {
+  max-width: 90%;
+  margin: 0 auto;
+}
+/* Estilo general de las secciones */
+section {
+  margin: 40px 0;
+}
+
+/* Encabezados */
+h1, h2, h3 {
+  color: #008851; /* Color primario para los encabezados */
+  font-weight: bold;
+}
+
+/* Títulos principales (h1) */
+h1 {
+  font-size: 2.5rem; /* Tamaño grande */
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+/* Subtítulos (h2) */
+h2 {
+  font-size: 2rem; /* Tamaño mediano */
+  margin-bottom: 10px;
+  border-bottom: 2px solid #008851; /* Línea debajo del título */
+  padding-bottom: 5px;
+}
+
+/* Títulos pequeños (h3) */
+h3 {
+  font-size: 1.5rem;
+  color: #008851;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+/* Párrafos */
+p {
+  font-size: 1rem;
+  line-height: 1.6; /* Espaciado entre líneas para mejor lectura */
+  margin-bottom: 20px;
+  color: #555; /* Color gris suave para los párrafos */
+  padding: 0 20px;
+  text-align: justify; /* Alineación del texto */
+}
+
+/* Listas */
+ul {
+  padding-left: 20px;
+  margin-bottom: 20px;
+}
+
+ul li {
+  font-size: 1rem;
+  margin-bottom: 10px;
+  color: #555;
+  list-style-type: disc;
+}
+
+ul li strong {
+  color: #008851; /* Resaltar los textos importantes con el color primario */
+}
+
+/* Estilos de contacto */
+.contact-info p {
+  font-size: 1rem;
+  margin-bottom: 10px;
+  color: #555;
+  padding: 0 20px;
+}
+
+.contact-info strong {
+  color: #008851; /* Resaltar los títulos en el área de contacto */
+}
+
+
+
+
+/*  images y videos  */
+
+.container-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+.gallery {
+  text-align: center;
+}
+/* Estilo para los videos */
+.gallery-item {
+  width: 100%;  /* Asegura que el video ocupe el ancho del contenedor */
+  height: 100%; /* Ajusta la altura al tamaño del contenedor */
+  object-fit: contain; /* Mantiene la relación de aspecto sin recortar el video */
+  border-radius: 8px;
+}
+
+
+.gallery-item-images {
+  width: 22%;
+  object-fit: cover;
+  border-radius: 8px;
+}
+.gallery-item-videos {
+  width: 22%;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.more-btn,
+.more-videos-btn {
+  background-color: #008851;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.more-btn:hover,
+.more-videos-btn:hover {
+  background-color: #005c3f; /* Color más oscuro al pasar el mouse */
+}
+/*    footer   */
+
+footer {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 100%;
+  margin-top: 10px;
+  padding: 10px 30px;
+  background: #C1C1C1;
+}
+footer span {
+  color: #ffffff;
+  font-weight: bold;
+}
+
+/* Responsive */
+@media (max-width: 1024px) {
+  .gallery-item-images,
+  .gallery-item-videos {
+    width: 30%;
+  }
+}
+@media (max-width: 720px) {
+  .gallery-item-images,
+  .gallery-item-videos {
+    width: 45%;
+  }
+}
