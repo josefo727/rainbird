@@ -190,6 +190,8 @@
       }
     });
 
+    minHeight = minHeight >= 500 ? minHeight : 500;
+
     $images.css({
       'height': minHeight + 'px',
       'object-fit': 'cover'
