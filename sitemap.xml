@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <!-- Página principal -->
+    <url>
+        <loc>https://elriegoautomatico.cl/</loc>
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <!-- Artículo 1: 5 Consejos para tu Sistema de Riego en Verano -->
+    <url>
+        <loc>https://elriegoautomatico.cl/articulos/tips-riego.html</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <!-- Artículo 2: Errores en Sistemas de Riego y Soluciones -->
+    <url>
+        <loc>https://elriegoautomatico.cl/articulos/mantenimiento-riego.html</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <!-- Artículo 3: Cómo Ahorrar Agua con tu Sistema de Riego -->
+    <url>
+        <loc>https://elriegoautomatico.cl/articulos/ahorro-agua.html</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <!-- Artículo 4: Cómo Instalar un Programador de Riego -->
+    <url>
+        <loc>https://elriegoautomatico.cl/articulos/instalacion-programadores.html</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+</urlset>
